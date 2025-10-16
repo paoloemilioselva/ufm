@@ -9,4 +9,5 @@ It could be a fully flattened USD or just referencing local files, it depends on
 
 You can drag&drop the following PNG file directly into a sublayer node in Houdini or load it in usdview, as any other USD file.
 
+<img width="1280" height="720" alt="ufm_test" src="https://github.com/user-attachments/assets/2e0a403b-a68d-441e-b81f-b667b1e2c42d" />
 
