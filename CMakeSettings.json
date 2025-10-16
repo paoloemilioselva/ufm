@@ -1,0 +1,43 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Release-usd-25.08",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "TARGET_CONFIG",
+          "value": "usd-25.08",
+          "type": "STRING"
+        },
+        {
+          "name": "BOOST_FROM_USD",
+          "value": "1_86",
+          "type": "STRING"
+        },
+        {
+          "name": "PYTHON_FOR_USD",
+          "value": "3.12",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "Release-Houdini-21",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "-DTARGET_CONFIG=houdini-21.0-481-311",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": []
+    },
+  ]
+}

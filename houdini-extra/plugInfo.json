@@ -1,0 +1,22 @@
+{
+    "Plugins": [
+      {
+        "Info": {
+          "Types": {
+            "ufm": {
+              "bases": [ "SdfFileFormat" ],
+              "extensions": [ "png" ],
+              "formatId": "ufm",
+              "primary": true,
+              "target": "usd",
+              "displayName": "UFM FileFormat plugin",
+              "supportsWriting": false
+            }
+          }
+        },
+        "LibraryPath": "./ufm.dll",
+        "Name": "ufm",
+        "Type": "library"
+      }
+    ]
+}
